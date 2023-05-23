@@ -22,7 +22,7 @@ title: kyle vickers blog
 email: kylevickers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   personal blog for code, linux, and more
-baseurl: "/blog-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://github.com/z0mi3ie" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: z0mi3ie
