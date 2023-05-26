@@ -169,11 +169,13 @@ code {
 
 code {
   padding: 1px 5px;
+  border: 0px solid $border-color-01;
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  border: 5px solid $border-color-01;
 
   > code {
     border: 0;
@@ -230,11 +232,11 @@ pre {
  */
 
 .orange {
-  color: #f66a0a;
+  color: $icon-color-1;
 }
 
 .grey {
-  color: #828282;
+  color: $icon-color-2;
 }
 
 .svg-icon {

@@ -1,1 +1,81 @@
-// Placeholder to allow overriding predefined variables smoothly.
+// gruvbox (dark) pallette
+$dark-bg-0: #282828;
+$dark-bg-0-h: #1d2021;
+$dark-bg-1: #3c3836;
+$dark-bg-2: #504945;
+$dark-bg-3: #665c54;
+$dark-bg-4: #7c6f64;
+$dark-gray-1: #928374;
+$dark-gray-2: #a89984;
+$dark-bg-bg0_h: #1d2021;
+$dark-red-1: #cc241d;
+$dark-red-2: #fb4934;
+$dark-green-1: #98971a;
+$dark-green-2: #b8bb26;
+$dark-yellow-1: #d79921;
+$dark-yellow-2: #fabd2f;
+$dark-blue-1: #458588;
+$dark-blue-2: #83a598;
+$dark-purple-1: #b16286;
+$dark-purple-2: #d3869b;
+$dark-aqua-1: #689d6a;
+$dark-aqua-2: #8ec07c;
+$dark-fg: #ebdbb2;
+$dark-fg-4: #a89984;
+$dark-fg-3: #bdae93;
+$dark-fg-2: #d5c4a1;
+$dark-fg-1: #ebdbb2;
+$dark-fg-0: #fbf1c7;
+$dark-orange-1: #d65d0e;
+$dark-orange-2: #fe8019;
+
+// gruvbox (light) pallette
+$light-bg-0: #fbf1c7;
+$light-bg-0-h: #f9f5d7;
+$light-bg-1: #ebdbb2;
+$light-bg-2: #d5c4a1;
+$light-bg-3: #bdae93;
+$light-bg-4: #a89984;
+$light-red-1: #cc241d;
+$light-green-1: #98971a;
+$light-yellow-1: #d79921;
+$light-blue-1: #458588;
+$light-purple-1: #b16286;
+$light-aqua-1: #689d6a;
+$light-gray-1: #7c6f64;
+$light-gray-2: #928374;
+$light-red-2: #9d0006;
+$light-green-2: #79740e;
+$light-yellow-2: #b57614;
+$light-blue-2: #076678;
+$light-purple-2: #8f3f71;
+$light-aqua-2: #427b58;
+$light-fg: #3c3836;
+$light-fg-4: #7c6f64;
+$light-fg-3: #665c54;
+$light-fg-2: #504945;
+$light-fg-1: #3c3836;
+$light-fg-0: #282828;
+$light-orange-1: #d65d0e;
+$light-orange-2: #af3a03;
+
+
+// blog color codes
+$text-color: $dark-fg;
+$background-color: $dark-bg-0;
+$site-title-color: $dark-aqua-1;
+$link-base-color: $dark-green-1;
+$link-visited-color: $dark-green-1;
+$link-hover-color: $dark-green-2;
+$brand-color: $dark-purple-1;
+$border-color-01: $dark-blue-2;
+$border-color-03: $dark-blue-2;
+$code-background-color: $light-bg-0;
+$icon-color-1: $dark-orange-1;
+$icon-color-2: $dark-orange-2;
+
+$table-text-color: #ffff00;
+$table-border-color: #ffff00;
+$table-zebra-color: #AAAA00;
+$table-header-bg-color: #999900;
+$table-header-border: #999900;
