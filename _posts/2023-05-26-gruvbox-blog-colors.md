@@ -1,3 +1,39 @@
+---
+layout: post
+title: "minima jekyll theme + gruvbox color scheme"
+date: 2023-05-26
+---
+
+# Customizing the jekyll theme
+
+I'm very happy with the blog so far w/ jekyll and github pages. It's a nice place to build content.
+It's admittedly also nice to work on something different than my day job in the backend and get
+at least some front end work done, even if its just like sass :).
+
+For years I've been using [gruvbox](https://github.com/morhetz/gruvbox) as my vim colorscheme.
+Honestly though, anywhere I can slide some gruvbox flair into I will. So for the blog, I wanted
+to replace the standard `minima` theme with it.
+
+Customizing jekyll is pretty slick, you just basically copy over whatever files you want
+to change to the top of the repo and go ham. One thing I did though was pull down the
+actual [minima](https://github.com/jekyll/minima) theme and copied all of the top level directories
+over so I could get a feel for everything we can customize and how minima is laid out.
+
+Specifically `_includes`, `_layouts`, `_sass`, `assets`, and `site`.
+
+There is a few nice empty files that are provided like `_sass/minima/custom-variables.scss`
+where you can define your own vars to customize.
+
+I went through `_base.scss` and `_layout.scss` and pulled out all referenced
+color variables so I could easily assign the gruvbox colors to them.
+
+I then added all the `gruvbox` color vars and just assigned them to which `minima` color
+variables I thought would look good for reading material. This is what I ended up with so far.
+(which probably isn't exactly what you see when you read this, but probably close).
+
+
+**_sass/minima/custom_variables.scss**
+```scss
 // gruvbox (dark) pallette
 $dark-bg-0: #282828;
 $dark-bg-0-h: #1d2021;
@@ -59,7 +95,6 @@ $light-fg-0: #282828;
 $light-orange-1: #d65d0e;
 $light-orange-2: #af3a03;
 
-
 // blog color codes
 $text-color: $dark-fg;
 $background-color: $dark-bg-0;
@@ -80,3 +115,11 @@ $table-border-color: #ffff00;
 $table-zebra-color: #AAAA00;
 $table-header-bg-color: #999900;
 $table-header-border: #999900;
+```
+
+I did adjust some of the default `scss` like border widths and adding `color`
+to specific classes, which just inherited the same colors. Nothing crazy at all
+though, its just vanilla minima with some tweaks.
+
+Thanks for reading!
+
